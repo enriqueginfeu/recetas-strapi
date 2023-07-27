@@ -1,0 +1,115 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pollos",
+  "info": {
+    "singularName": "pollo",
+    "pluralName": "pollos",
+    "displayName": "pollo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "imagen": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "tiempo": {
+      "type": "string"
+    },
+    "porcion": {
+      "type": "string"
+    },
+    "item1": {
+      "type": "string"
+    },
+    "item2": {
+      "type": "string"
+    },
+    "item3": {
+      "type": "string"
+    },
+    "item4": {
+      "type": "string"
+    },
+    "item5": {
+      "type": "string"
+    },
+    "item6": {
+      "type": "string"
+    },
+    "item7": {
+      "type": "string"
+    },
+    "item8": {
+      "type": "string"
+    },
+    "item9": {
+      "type": "string"
+    },
+    "item10": {
+      "type": "string"
+    },
+    "item11": {
+      "type": "string"
+    },
+    "item12": {
+      "type": "string"
+    },
+    "item13": {
+      "type": "string"
+    },
+    "item14": {
+      "type": "string"
+    },
+    "item15": {
+      "type": "string"
+    },
+    "paso1": {
+      "type": "richtext"
+    },
+    "paso2": {
+      "type": "richtext"
+    },
+    "paso3": {
+      "type": "richtext"
+    },
+    "paso5": {
+      "type": "richtext"
+    },
+    "paso6": {
+      "type": "richtext"
+    },
+    "paso7": {
+      "type": "richtext"
+    },
+    "paso8": {
+      "type": "richtext"
+    },
+    "paso9": {
+      "type": "richtext"
+    },
+    "paso10": {
+      "type": "richtext"
+    },
+    "paso4": {
+      "type": "richtext"
+    },
+    "url": {
+      "type": "uid",
+      "targetField": "nombre"
+    },
+    "puntuacion": {
+      "type": "decimal"
+    }
+  }
+}
